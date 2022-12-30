@@ -6,7 +6,7 @@ def job():
  print("Learn python everyday")
 
 
-schedule.every().second.do(job)
+schedule.every().second .do(job)
 
 
 while True:

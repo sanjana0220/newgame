@@ -32,6 +32,7 @@ image_blank=Image.new('RGBA',(1000,600))
 #ROTATE 
 
 image_rotate=image.rotate(60,expand=True,fillcolor=ImageColor.getcolor('blue','RGB'))
+image_crop=image.crop(left_x,top_y,right_x,bottom_y)
 image_rotate.show()
 
 
